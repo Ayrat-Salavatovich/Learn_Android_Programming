@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Temperature Converter</string>
+    <string name="action_settings">Settings</string>
+    <color name="myColor">#F16A</color>
+    <string name="celsius">to Celsius</string>
+    <string name="fahrenheit">to Fahrenheit</string>
+    <string name="calculate">Calculate</string>
+    <string name="myOnClickHandler">myOnClickHandler</string>
+
+</resources>
