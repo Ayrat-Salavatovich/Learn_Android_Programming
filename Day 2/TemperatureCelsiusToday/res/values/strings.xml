@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Temperature celsius today</string>
+    <string name="action_settings">Settings</string>
+    <string name="update">Update</string>
+    <color name="text_color_current_weather">#FFEEE3C4</color>
+
+</resources>
