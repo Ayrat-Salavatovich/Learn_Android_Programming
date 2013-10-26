@@ -1,0 +1,67 @@
+package ayrat.salavatovich.gmail.com.day_2.onclick;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.TextView;
+
+public class MainActivity extends Activity {
+
+	TextView infoTextView;
+	Button minusButton;
+	int all = 0;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.main);
+
+		infoTextView = (TextView) findViewById(R.id.textViewInfo);
+		info();
+
+		minusButton = (Button) findViewById(R.id.buttonMinus);
+		minusButton.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				dec();
+				info();
+			}
+		});
+	}
+
+	public void onClickPlus(View v) {
+		switch (v.getId()) {
+		case R.id.buttonPlus:
+			inc();
+			info();
+			break;
+
+		default:
+			break;
+		}
+	}
+
+	private void info() {
+		infoTextView.setText(String.valueOf(all));
+	}
+
+	private void inc() {
+		++all;
+	}
+
+	private void dec() {
+		--all;
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+}
