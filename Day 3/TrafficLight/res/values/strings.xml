@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Traffic Light</string>
+    <string name="action_settings">Settings</string>
+    <string name="red">Red</string>
+    <string name="yellow">Yellow</string>
+    <string name="green">Green</string>
+    <string name="white">White</string>
+    <color name="white">@android:color/white</color>
+    <color name="red">#FF00</color>
+    <color name="green">#F0F0</color>
+    <color name="yellow">#FFF0</color>
+
+</resources>
