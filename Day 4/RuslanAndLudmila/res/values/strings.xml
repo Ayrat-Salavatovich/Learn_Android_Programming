@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ruslan and Ludmila</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_text">У лукоморья дуб зелёный;\nЗлатая цепь на дубе том:\nИ днём и ночью <b>кот учёный</b>\nВсё ходит по цепи кругом;\nИдёт <b>направо</b> - песнь заводит,\n<b>Налево</b> - сказку говорит.</string>
+    <string name="about_title">О программе</string>
+
+</resources>
