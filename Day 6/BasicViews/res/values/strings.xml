@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BasicViews</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_text">Поле для ввода текста</string>
+    <string name="button">Кнопка</string>
+    <string name="text">Какой-то текст</string>
+    <string name="checkbox">Галка</string>
+
+</resources>
