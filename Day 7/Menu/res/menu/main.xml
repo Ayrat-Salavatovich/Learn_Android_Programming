@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:onClick="onSettingsMenuClick"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_java"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_java"/>
+    <item
+        android:id="@+id/action_clojure"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_clojure"/>
+    <item
+        android:id="@+id/action_html"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_html"/>
+    <item
+        android:id="@+id/action_javascript"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_javascript"/>
+    <item
+        android:id="@+id/action_css"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_css"/>
+
+</menu>
