@@ -119,7 +119,7 @@ public class Linpack {
 
 		HashMap<String, Double> result = new HashMap<String, Double>();
 		result.put("Mflops/s", mflops_result);
-		result.put("Time (sec.)", mflops_result);
+		result.put("Time (sec.)", time_result);
 		result.put("Norm Res", residn_result);
 		result.put("Precision", eps_result);
 
