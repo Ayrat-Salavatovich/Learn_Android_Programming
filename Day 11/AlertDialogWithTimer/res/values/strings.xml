@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AlertDialogWithTimer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Автоматическое закрытие окна</string>
+    <string name="message">Через пять секунд это окно закроется автоматически!</string>
+    <string name="text">Alert Dialog с таймером</string>
+
+</resources>
