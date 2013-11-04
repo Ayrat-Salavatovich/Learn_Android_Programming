@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simple Alert Dialog</string>
+    <string name="action_settings">Settings</string>
+    <string name="chance">Это твой последний шанс</string>
+    <string name="title">Выбор есть всегда</string>
+    <string name="message">После этого нет пути назад</string>
+    <string name="blue_pill">Синяя таблетка</string>
+    <string name="red_pill">Красная таблетка</string>
+    <string name="if_blue_pill">История заканчивается, ты просыпаешься в своей кровати и веришь, в то, во что хочешь верить</string>
+    <string name="if_red_pill">Ты оказываешься в стране чудес и я покажу тебе, насколько она глубока</string>
+    <string name="not_choose">Вы ничего не выбрали</string>
+
+</resources>
