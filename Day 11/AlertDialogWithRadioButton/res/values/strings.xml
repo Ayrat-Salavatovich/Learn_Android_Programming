@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Alert Dialog With Radio Button</string>
+    <string name="action_settings">Settings</string>
+    <string name="jn">Jornal de Notícias</string>
+    <string name="correiomanha">Correio da Manhã</string>
+    <string name="dn">Diario de Notícias</string>
+    <string name="expresso">Expresso</string>
+    <string name="publico">Publico</string>
+    <string name="jornaldecoimbra">Jornal de Coimbra</string>
+    <string name="what_reading">Что читаешь?</string>
+    <string name="media">СМИ</string>
+    <string name="back">Назад</string>
+    <string name="your_choice">Вы читаете журнал</string>
+
+</resources>
