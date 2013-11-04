@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Alert Dialog With List</string>
+    <string name="action_settings">Settings</string>
+    <string name="where_to_go">Куда поехать?</string>
+    <string name="lisbon">Лиссабон</string>
+    <string name="algarve">Алгарви</string>
+    <string name="madeira">Мадейра</string>
+    <string name="select">Выберите</string>
+    <string name="your_choice">Ваш выбор пал на</string>
+
+</resources>
