@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Alert Dialog In onCreateDialog</string>
+    <string name="action_settings">Settings</string>
+    <string name="question">Нибольший международный аэропорт в Португалии?</string>
+    <string name="portela">Портела</string>
+    <string name="porto">Порту</string>
+    <string name="do_not_know">Не знаю!</string>
+    <string name="text">Выберите правильный ответ</string>
+    <string name="right">Правильно</string>
+    <string name="wrong">Неправильно</string>
+    <string name="horridness">Ужас!</string>
+
+</resources>
