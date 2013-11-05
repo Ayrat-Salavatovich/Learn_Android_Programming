@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Notification Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="notify">Создать уведомления</string>
+    <string name="remove_notify">Удалить уведомления</string>
+    <string name="ticker_visit_notify">Португалия лучшее место в Мире!</string>
+    <string name="title_visit_notify">Напоминание</string>
+    <string name="text_visit_notify">Пора посетить Португалию</string>
+    <string name="ticker_site_notify">Все о путешествиях в Португалии здесь!</string>
+    <string name="title_site_notify">Посетите сайт о Португалии</string>
+    <string name="text_site_notify">http://www.visitportugal.com/</string>
+
+</resources>
