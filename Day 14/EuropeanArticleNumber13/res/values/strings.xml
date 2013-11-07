@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">European Article Number 13</string>
+    <string name="action_settings">Settings</string>
+    <string name="generate_ean13_barcode">Сгенерировать штрих-код EAN-13</string>
+    <string name="info_error_barcode_number">EAN13 barcode use a 12 digits product code</string>
+
+</resources>
