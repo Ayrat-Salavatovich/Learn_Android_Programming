@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">List Of Cities In Portugal</string>
+    <string name="toast_your_choise">Вы выбрали %s</string>
+    <string name="toast_city_remove">Город исключен из списка</string>
+    <string name="alert_dialog_message">Вы хотите исключить город %s из списка</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="list_empty">Список пуст</string>
+
+</resources>
