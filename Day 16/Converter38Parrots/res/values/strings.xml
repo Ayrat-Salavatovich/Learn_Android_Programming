@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Converter 38 Parrots</string>
+    <string name="action_settings">Settings</string>
+    <string name="convert_meters">В метрах</string>
+    <string name="convert_parrots">В попугаях</string>
+    <string name="convert_anacondas">В удавах</string>
+    <string name="do_convert">Конвертировать</string>
+    <string name="convert_from">Конвертировать с</string>
+    <string name="convert_to">Конвертировать в</string>
+    <string name="on_click_convert_handler">onClickConvertHandler</string>
+    <string name="lenght_empty">Введите длину</string>
+    <string name="result">Результат %.2f</string>
+
+    <color name="activity_color">#A39C</color>
+
+</resources>
