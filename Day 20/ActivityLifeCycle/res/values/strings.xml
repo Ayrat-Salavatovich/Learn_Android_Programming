@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Activity Life Cycle</string>
+    <string name="action_close">Закрыть</string>
+    <string name="activity_a">ActivityA</string>
+    <string name="activity_b">ActivityB</string>
+    <string name="activity_c">ActivityC</string>
+
+</resources>
