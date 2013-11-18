@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Layout Properties</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_text">Button with text</string>
+    <string name="button_b1">B1</string>
+    <string name="button_b2">B2</string>
+
+</resources>
