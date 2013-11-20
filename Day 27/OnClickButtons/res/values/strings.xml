@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OnClickButtons</string>
+    <string name="action_settings">Settings</string>
+    <string name="on_click_button_cancel">Нажата кнопка Cancel</string>
+    <string name="on_click_button_ok">Нажата кнопка ОК</string>
+
+</resources>
