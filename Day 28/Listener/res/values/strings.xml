@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Listener</string>
+    <string name="action_settings">Settings</string>
+    <string name="out_click_button_cancel">Нажата кнопка Cancel</string>
+    <string name="out_click_button_ok">Нажата кнопка ОК</string>
+    <string name="button_start">Start</string>
+    <string name="out_click_button_start">Нажата кнопка Start</string>
+
+</resources>
