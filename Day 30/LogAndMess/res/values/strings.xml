@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LogAndMess</string>
+    <string name="action_settings">Settings</string>
+    <string name="priority_debug">DEBUG</string>
+    <string name="priority_error">ERROR</string>
+    <string name="priority_info">INFO</string>
+    <string name="priority_verbose">VERBOSE</string>
+    <string name="priority_warn">WARN</string>
+    <string name="duration_short">SHORT</string>
+    <string name="duration_long">LONG</string>
+    <string name="print">Нажата кнопка <b>%s</b></string>
+    <string name="cancel">@android:string/cancel</string>
+    <string name="ok">@android:string/ok</string>
+
+</resources>
