@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="textview_top_text">Верхний текст</string>
+    <string name="button_top_text">Верхняя кнопка</string>
+    <string name="textview_bottom_text">Нижний текст</string>
+    <string name="button_bottom_text">Нижняя кнопка</string>
+    <string name="made_green">Сделать зеленым</string>
+    <string name="green">Зеленый</string>
+    <string name="blue">Синий</string>
+
+</resources>
