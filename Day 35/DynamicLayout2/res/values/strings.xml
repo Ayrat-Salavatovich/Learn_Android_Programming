@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DynamicLayout2</string>
+    <string name="action_settings">Settings</string>
+    <string name="radio_button_left">Left</string>
+    <string name="radio_button_center">Center</string>
+    <string name="radio_button_right">Right</string>
+    <string name="button_add">Add</string>
+    <string name="button_remove_all">Remove all</string>
+    <string name="button_hint">Button name</string>
+
+</resources>
