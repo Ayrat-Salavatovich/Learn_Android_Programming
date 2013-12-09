@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IntentFilter</string>
+    <string name="action_settings">Settings</string>
+    <string name="show_time">Show time</string>
+    <string name="show_date">Show date</string>
+    <string name="app_name_time">Time</string>
+    <string name="app_name_date_basic">Date basic</string>
+    <string name="app_name_date_extended">Date extended</string>
+
+</resources>
