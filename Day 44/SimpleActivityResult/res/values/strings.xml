@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SimpleActivityResult</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_input_name">Input name</string>
+    <string name="out_name">Your name is %s</string>
+    <string name="hint_name">Input your Name</string>
+    <string name="label_name">Name</string>
+
+</resources>
