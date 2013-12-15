@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SharedPreferences</string>
+    <string name="action_settings">Settings</string>
+    <string name="load">Load</string>
+    <string name="save">Save</string>
+    <string name="text_loaded">Text loaded</string>
+    <string name="text_saved">Text saved</string>
+
+</resources>
