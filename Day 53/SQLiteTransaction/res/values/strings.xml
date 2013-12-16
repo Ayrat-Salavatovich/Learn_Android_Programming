@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SQLiteTransaction</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_clear_record_field">Clear</string>
+    <string name="action_delete_all_records">Delete All</string>
+    <string name="action_select_all_records">Select All</string>
+    <string name="action_insert_record">Insert</string>
+
+</resources>
