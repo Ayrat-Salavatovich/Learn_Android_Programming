@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SQLiteQuery</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">Наименование</string>
+    <string name="people">Население</string>
+    <string name="region">Регион</string>
+    <string name="sort">Сортировка</string>
+    <string name="region_having_count_people">Население по региону ></string>
+    <string name="people_group_by_region">Население по региону</string>
+    <string name="where_people_more">Население ></string>
+    <string name="function">Функция</string>
+    <string name="all_records">Все записи</string>
+    <string name="title">Справочник стран</string>
+
+</resources>

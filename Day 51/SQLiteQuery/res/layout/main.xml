@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title" />
+
+    <Button
+        android:id="@+id/buttonAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTitle"
+        android:onClick="selectAll"
+        android:text="@string/all_records" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutFunc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonAll"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/buttonFunc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="function"
+            android:text="@string/function" />
+
+        <EditText
+            android:id="@+id/editTextFunc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutPeople"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayoutFunc"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/buttonPeople"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="select"
+            android:text="@string/where_people_more" />
+
+        <EditText
+            android:id="@+id/editTextPeople"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayoutPeople"
+        android:onClick="group"
+        android:text="@string/people_group_by_region" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutHaving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonGroup"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/buttonHaving"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="having"
+            android:text="@string/region_having_count_people" />
+
+        <EditText
+            android:id="@+id/editTextHaving"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutSort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayoutHaving"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/buttonSort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sort"
+            android:text="@string/sort" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupSort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radioButtonName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/name" />
+
+            <RadioButton
+                android:id="@+id/radioButtonPeople"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/people" />
+
+            <RadioButton
+                android:id="@+id/radioButtonRegion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/region" />
+        </RadioGroup>
+    </LinearLayout>
+
+</RelativeLayout>
