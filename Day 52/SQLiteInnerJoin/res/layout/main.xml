@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title" />
+
+    <Button
+        android:id="@+id/buttonAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTitle"
+        android:onClick="select"
+        android:text="@string/all_records" />
+
+    <Button
+        android:id="@+id/buttonAllPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonAll"
+        android:onClick="select"
+        android:text="@string/all_positions" />
+
+    <Button
+        android:id="@+id/buttonAllPeople"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonAllPosition"
+        android:onClick="select"
+        android:text="@string/all_people" />
+    
+    <LinearLayout
+        android:id="@+id/linearLayoutPeopleWithSalaryMore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonAllPeople"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/buttonPeopleWithSalaryMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="select"
+            android:text="@string/where_salary_more" />
+
+        <EditText
+            android:id="@+id/editTextPeopleWithSalaryMore"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linearLayoutPeopleWithSalaryLess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayoutPeopleWithSalaryMore"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/buttonPeopleWithSalaryLess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="select"
+            android:text="@string/where_salary_less" />
+
+        <EditText
+            android:id="@+id/editTextPeopleWithSalaryLess"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number" />
+    </LinearLayout>
+
+</RelativeLayout>

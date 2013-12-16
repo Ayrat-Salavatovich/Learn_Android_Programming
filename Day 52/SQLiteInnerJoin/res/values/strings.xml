@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SQLiteInnerJoin</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Справочник подразделения</string>
+    <string name="all_records">Все записи</string>
+    <string name="all_positions">Все должности</string>
+    <string name="all_people">Все сотрудники</string>
+    <string name="where_salary_more">Зарплата &gt;</string>
+    <string name="where_salary_less">Зарплата &lt;</string>
+
+</resources>
