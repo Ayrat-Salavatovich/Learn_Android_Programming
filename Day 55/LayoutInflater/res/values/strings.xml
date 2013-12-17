@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LayoutInflater</string>
+    <string name="action_settings">Settings</string>
+    <string name="linear_layout">LinearLayout:&#160;</string>
+    <string name="relative_layout">RelativeLayout:&#160;</string>
+    <string name="text_view_layout">TextViewLayout</string>
+    <string name="action_show">Show</string>
+    <string name="action_log">Log</string>
+    <string name="root">root</string>
+    <string name="attachToRoot">attachToRoot</string>
+
+</resources>
