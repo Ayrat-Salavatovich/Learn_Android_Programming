@@ -1,0 +1,217 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textViewLabelAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editTextAmount"
+        android:layout_alignParentLeft="true"
+        android:text="@string/label_amount" />
+
+    <EditText
+        android:id="@+id/editTextAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textViewLabelAmount"
+        android:ems="10"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <TableLayout
+        android:id="@+id/tableLayoutResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextAmount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/Black"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRowHeader"
+            style="@style/TableRow.Header" >
+
+            <TextView
+                android:id="@+id/textViewLabelPercent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_header_percent" />
+
+            <TextView
+                android:id="@+id/textViewLabelTip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_header_tip" />
+
+            <TextView
+                android:id="@+id/textViewLabelResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_header_result" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowResult5"
+            style="@style/TableRow.Body" >
+
+            <TextView
+                android:id="@+id/textViewLabel5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_5" />
+
+            <TextView
+                android:id="@+id/textViewTip5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero_value" />
+
+            <TextView
+                android:id="@+id/textViewResult5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero_value" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowResult10"
+            style="@style/TableRow.Body" >
+
+            <TextView
+                android:id="@+id/textViewLabel10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_10" />
+
+            <TextView
+                android:id="@+id/textViewTip10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero_value" />
+
+            <TextView
+                android:id="@+id/textViewResult10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero_value" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowResult15"
+            style="@style/TableRow.Body" >
+
+            <TextView
+                android:id="@+id/textViewLabel15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_15" />
+
+            <TextView
+                android:id="@+id/textViewTip15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero_value" />
+
+            <TextView
+                android:id="@+id/textViewResult15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero_value" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowResult20"
+            style="@style/TableRow.Body" >
+
+            <TextView
+                android:id="@+id/textViewLabel20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_20" />
+
+            <TextView
+                android:id="@+id/textViewTip20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero_value" />
+
+            <TextView
+                android:id="@+id/textViewResult20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero_value" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowResult25"
+            style="@style/TableRow.Body" >
+
+            <TextView
+                android:id="@+id/textViewLabel25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_25" />
+
+            <TextView
+                android:id="@+id/textViewTip25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero_value" />
+
+            <TextView
+                android:id="@+id/textViewResult25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero_value" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowCustomTip"
+            style="@style/TableRow.Body" >
+
+            <SeekBar
+                android:id="@+id/seekBarCustomTip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="3"
+                android:focusable="false"
+                android:max="100"
+                android:progress="@string/default_percent" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowResultCustom"
+            style="@style/TableRow.Body" >
+
+            <TextView
+                android:id="@+id/textViewLabelCustom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textViewTipCustom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero_value" />
+
+            <TextView
+                android:id="@+id/textViewResultCustom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero_value" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

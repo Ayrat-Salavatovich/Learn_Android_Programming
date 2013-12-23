@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calculation Tip</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_amount">Сумма</string>
+    <string name="label_header_percent">%</string>
+    <string name="label_header_tip">Tip</string>
+    <string name="label_header_result">Total</string>
+    <string name="label_5">5%</string>
+    <string name="label_10">10%</string>
+    <string name="label_15">15%</string>
+    <string name="label_20">20%</string>
+    <string name="label_25">25%</string>
+    <string name="result_value">%.2f</string>
+    <string name="label_percent">%d%%</string>
+    <string name="zero_value">0.00</string>
+    <string name="default_amount">0.00</string>
+    <string name="default_percent">13</string>
+
+</resources>
