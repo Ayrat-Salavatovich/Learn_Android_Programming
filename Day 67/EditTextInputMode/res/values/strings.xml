@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EditTextInputMode</string>
+    <string name="action_settings">Settings</string>
+    <string name="adjust_resize">AdjustResize</string>
+    <string name="adjust_pan">AdjustPan</string>
+    <string name="adjust_unspecified">AdjustUnspecified</string>
+    <string name="adjust_nothing">AdjustNothing</string>
+    <string name="text_password">Text Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="number">Number</string>
+    <string name="hint_text_password">Enter password</string>
+    <string name="hint_email_address">Enter email</string>
+    <string name="hint_number">Enter number</string>
+
+</resources>
