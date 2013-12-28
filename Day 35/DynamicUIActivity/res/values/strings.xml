@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DynamicUIActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="echo_click">Click on %s</string>
+    <string name="button_first">First Button</string>
+    <string name="button_second">Second Button</string>
+
+</resources>
