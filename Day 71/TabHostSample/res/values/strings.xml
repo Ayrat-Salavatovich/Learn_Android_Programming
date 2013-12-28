@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TabHostSample</string>
+    <string name="action_settings">Settings</string>
+    <string name="tag_page_1">tab_1</string>
+    <string name="tag_page_2">tab_2</string>
+    <string name="tag_page_3">tab_3</string>
+    <string name="content_page_1">Page 1</string>
+    <string name="content_page_2">Page 2</string>
+    <string name="content_page_3">Page 3</string>
+    <string name="indicator_page_1">Document 1</string>
+    <string name="indicator_page_2">Document 2</string>
+    <string name="indicator_page_3">Document 3</string>
+
+</resources>
