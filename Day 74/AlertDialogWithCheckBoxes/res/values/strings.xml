@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AlertDialogWithCheckBoxes</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_call_alert_dialog">Call AlertDialog with CheckBoxes</string>
+    <string name="color_state_is">Color: %1$s, state: %2$s\n</string>
+    <string name="checked">checked</string>
+    <string name="unchecked">unchecked</string>
+
+</resources>
