@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AlertDialogWithRadioButtons</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_call_alert_dialog">Call AlertDialog with RadioButtons</string>
+    <string name="color_is">Color: %s</string>
+    <string name="not_close">Select a color before closing</string>
+
+    <string-array name="colors">
+        <item name="red">Red</item>
+        <item name="green">Green</item>
+        <item name="blue">Blue</item>
+    </string-array>
+
+</resources>
