@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TimePickerDialogSample</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_call_alert_dialog">Call TimePickerDialog</string>
+    <string name="time_24">%tR</string>
+    <string name="time_12">%1$tI:%1$tM %1$Tp</string>
+
+</resources>
