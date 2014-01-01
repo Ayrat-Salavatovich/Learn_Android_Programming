@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_file"
+        android:alphabeticShortcut="f"
+        android:checked="true"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_file"
+        android:titleCondensed="@string/action_file">
+        <menu>
+            <item
+                android:id="@+id/action_new"
+                android:alphabeticShortcut="n"
+                android:checked="true"
+                android:orderInCategory="101"
+                android:showAsAction="never"
+                android:title="@string/action_new"
+                android:titleCondensed="@string/action_new"/>
+            <item
+                android:id="@+id/action_open"
+                android:alphabeticShortcut="o"
+                android:checked="true"
+                android:orderInCategory="102"
+                android:showAsAction="never"
+                android:title="@string/action_open"
+                android:titleCondensed="@string/action_open"/>
+            <item
+                android:id="@+id/action_save"
+                android:alphabeticShortcut="s"
+                android:checked="true"
+                android:orderInCategory="103"
+                android:showAsAction="never"
+                android:title="@string/action_save"
+                android:titleCondensed="@string/action_save"/>
+        </menu>
+    </item>
+
+</menu>
