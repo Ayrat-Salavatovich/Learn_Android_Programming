@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TabHostSampleWithIcon</string>
+    <string name="action_settings">Settings</string>
+    <string name="content_android">Android is an operating system based on the Linux kernel, and designed primarily for touchscreen mobile devices such as smartphones and tablet computers.</string>
+    <string name="content_java">Java is a programming language and computing platform first released by Sun Microsystems in 1995.</string>
+    <string name="content_clojure">Clojure is a dynamic programming language that targets the Java Virtual Machine.</string>
+    <string name="id_android">tabSpecAndroid</string>
+    <string name="id_java">tabSpecJava</string>
+    <string name="id_clojure">tabSpecClojure</string>
+    <string name="indicator_android">Android</string>
+    <string name="indicator_java">Java</string>
+    <string name="indicator_clojure">Clojure</string>
+
+</resources>
