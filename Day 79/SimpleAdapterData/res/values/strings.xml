@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SimpleAdapterData</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_record">Добавить запись</string>
+    <string name="remove_record">Удалить запись</string>
+    <string name="template_sometext">Sometext %d</string>
+
+</resources>
