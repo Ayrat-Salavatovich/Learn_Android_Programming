@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Spinner</string>
+    <string name="action_settings">Settings</string>
+    <string name="question">Identify the nation that led European exploration through government efforts to provide their sailors with the most advanced navigation instruments and techniques available.</string>
+    <string name="portugal">Portugal</string>
+    <string name="spain">Spain</string>
+    <string name="italy">Italy</string>
+    <string name="france">France</string>
+    <string name="none">Select</string>
+    <string name="great_britain">Great Britain</string>
+    <string name="prompt">Select One Answer Choice</string>
+    <string name="correct_answer"><b>Correct answer.</b> Portugal’s Prince Henry earned the title “the Navigator” for his
+efforts at developing Portugal’s maritime empire.</string>
+    <string name="incorrect_answer">No, that is incorrect</string>
+
+    <string-array name="answers">
+        <item name="a">@string/none</item>
+        <item name="b">@string/portugal</item>
+        <item name="c">@string/spain</item>
+        <item name="d">@string/italy</item>
+        <item name="e">@string/france</item>
+        <item name="f">@string/great_britain</item>
+    </string-array>
+
+</resources>
