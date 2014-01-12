@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HeaderFooter</string>
+    <string name="action_settings">Settings</string>
+    <string name="header_title">Header</string>
+    <string name="footer_title">Footer</string>
+    <string name="test">Test</string>
+    <string name="info">The following is a list of sovereign states and territories where Portuguese is an official or de facto language.</string>
+    <string name="header_1">Header 1</string>
+    <string name="data_for_header_1">Some text for Header 1</string>
+    <string name="header_2">Header 2</string>
+    <string name="footer_1">Footer 1</string>
+    <string name="data_for_footer_1">Some text for Footer 1</string>
+    <string name="footer_2">Footer 2</string>
+
+    <string-array name="countries">
+        <item name="brazil">Brazil</item>
+        <item name="mozambique">Mozambique</item>
+        <item name="angola">Angola</item>
+        <item name="portugal">Portugal</item>
+        <item name="guinea_bissau">Guinea-Bissau</item>
+        <item name="east_timor">East Timor</item>
+        <item name="macau">Macau</item>
+        <item name="cape_verde">Cape Verde</item>
+        <item name="sao_tome_and_principe">São Tomé and Príncipe</item>
+        <item name="equatorial_guinea">Equatorial Guinea</item>
+        <item name="goa">Goa (India)</item>
+        <item name="daman_and_diu">Daman and Diu (India)</item>
+    </string-array>
+
+</resources>
