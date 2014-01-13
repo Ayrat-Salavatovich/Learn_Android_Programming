@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GridView</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Portuguese Alphabet</string>
+
+    <string-array name="portuguese_alphabet">
+        <item name="a">a</item>
+        <item name="b">b</item>
+        <item name="c">c</item>
+        <item name="d">d</item>
+        <item name="e">e</item>
+        <item name="f">f</item>
+        <item name="g">g</item>
+        <item name="h">h</item>
+        <item name="i">i</item>
+        <item name="j">j</item>
+        <item name="k">k</item>
+        <item name="l">l</item>
+        <item name="m">m</item>
+        <item name="n">n</item>
+        <item name="o">o</item>
+        <item name="p">p</item>
+        <item name="q">q</item>
+        <item name="r">r</item>
+        <item name="s">s</item>
+        <item name="t">t</item>
+        <item name="u">u</item>
+        <item name="v">v</item>
+        <item name="w">w</item>
+        <item name="x">x</item>
+        <item name="y">y</item>
+        <item name="z">z</item>
+    </string-array>
+
+    <color name="radiant_orchid">#99B163A3</color>
+    <color name="black">#F000</color>
+
+</resources>
