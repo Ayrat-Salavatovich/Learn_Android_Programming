@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Parcel</string>
+    <string name="action_settings">Settings</string>
+    <string name="write">%1$s; Size data = %2$d</string>
+    <string name="read">%1$s; Data position = %2$d</string>
+    <string name="data">data: %s</string>
+
+</resources>
