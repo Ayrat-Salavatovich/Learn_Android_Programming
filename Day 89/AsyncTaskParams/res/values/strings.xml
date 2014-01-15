@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AsyncTaskParams</string>
+    <string name="action_settings">Settings</string>
+    <string name="start">Start</string>
+    <string name="begin">Begin</string>
+    <string name="end">End</string>
+    <string name="readed">Readed %d partitions</string>
+
+    <color name="radiant_orchid">#99B163A3</color>
+
+    <string-array name="partitions">
+        <item name="boot">/boot</item>
+        <item name="system">/system</item>
+        <item name="recovery">/recovery</item>
+        <item name="data">/data</item>
+        <item name="cache">/cache</item>
+        <item name="misc">/misc</item>
+        <item name="sdcard">/sdcard</item>
+        <item name="sd_ext">/sd-ext</item>
+    </string-array>
+
+</resources>
