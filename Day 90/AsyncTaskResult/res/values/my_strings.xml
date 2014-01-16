@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="start">Start</string>
+    <string name="result">Result</string>
+    <string name="begin">Begin</string>
+    <string name="end">End</string>
+    <string name="show_result">Get result %d</string>
+    <string name="indication">%d&#8230;</string>
+
+</resources>
