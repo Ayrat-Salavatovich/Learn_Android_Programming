@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AsyncTaskStatus</string>
+    <string name="action_settings">Settings</string>
+    <string name="start">Start</string>
+    <string name="status">Status</string>
+    <string name="end">End</string>
+    <string name="begin">Begin</string>
+    <string name="cancel">@android:string/cancel</string>
+    <string name="pending">PENDING</string>
+    <string name="running">RUNNING</string>
+    <string name="finished">FINISHED</string>
+    <string name="cancelled">CANCELLED</string>
+
+</resources>
