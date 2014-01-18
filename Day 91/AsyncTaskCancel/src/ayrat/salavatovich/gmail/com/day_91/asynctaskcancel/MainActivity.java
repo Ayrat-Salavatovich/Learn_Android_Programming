@@ -1,0 +1,116 @@
+package ayrat.salavatovich.gmail.com.day_91.asynctaskcancel;
+
+import android.app.Activity;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.os.SystemClock;
+import android.view.Menu;
+import android.view.View;
+import android.widget.ProgressBar;
+import android.widget.TextView;
+
+public class MainActivity extends Activity {
+
+	private final boolean MAY_INTERRUPT_IF_RUNNING = false;
+	private TextView textView;
+	private ProgressBar progressBar;
+	private MyTask myTask;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.main);
+
+		textView = (TextView) findViewById(R.id.textView);
+		progressBar = (ProgressBar) findViewById(R.id.progressBar);
+		setVisibility(false);
+	}
+
+	public void onClick(View v) {
+		switch (v.getId()) {
+		case R.id.buttonStart:
+			startTask();
+
+			break;
+
+		case R.id.buttonCancel:
+			cancelTask();
+
+			break;
+
+		default:
+			break;
+		}
+	}
+
+	protected void startTask() {
+		myTask = new MyTask();
+		myTask.execute();
+	}
+
+	protected void cancelTask() {
+		if (myTask == null)
+			return;
+
+		myTask.cancel(MAY_INTERRUPT_IF_RUNNING);
+	}
+
+	protected void info(int resId) {
+		textView.setText(getString(resId));
+	}
+
+	protected void info(String text) {
+		textView.setText(text);
+	}
+
+	protected void setVisibility(boolean visible) {
+		if (visible)
+			progressBar.setVisibility(View.VISIBLE);
+		else
+			progressBar.setVisibility(View.GONE);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		getMenuInflater().inflate(R.menu.main, menu);
+
+		return true;
+	}
+
+	private class MyTask extends AsyncTask<Void, Void, Void> {
+
+		@Override
+		protected Void doInBackground(Void... params) {
+			for (int i = 0; i < 50; i++) {
+				SystemClock.sleep(100);
+				if (isCancelled())
+					return null;
+			}
+
+			return null;
+		}
+
+		@Override
+		protected void onPostExecute(Void result) {
+			super.onPostExecute(result);
+			info(R.string.end);
+			setVisibility(false);
+		}
+
+		@Override
+		protected void onPreExecute() {
+			super.onPreExecute();
+			info(R.string.begin);
+			setVisibility(true);
+		}
+
+		@Override
+		protected void onCancelled() {
+			super.onCancelled();
+			info(R.string.cancel);
+			setVisibility(false);
+		}
+
+	}
+
+}
