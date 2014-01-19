@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SaveInstanceState</string>
+    <string name="action_settings">Settings</string>
+    <string name="count">Count</string>
+    <string name="on_create_title">Create</string>
+    <string name="on_start_title">Start</string>
+    <string name="on_resume_title">Resume</string>
+    <string name="on_pause_title">Pause</string>
+    <string name="on_stop_title">Stop</string>
+    <string name="on_destroy_title">Destroy</string>
+    <string name="on_restart_title">Restart</string>
+    <string name="on_save_instance_state_title">SaveInstanceState</string>
+    <string name="on_restore_instance_state_title">RestoreInstanceState</string>
+    <string name="on_create_message">Вызывается один раз при создании activity. Здесь должна производится первоначальная настройка — создание экземпляров класса View (ваш пользовательский интерфейс), запись данных в списки и т.д. Этот метод получает Bundle объект, содержащий предыдущее состояние activity, если оно было сохранено (смотрите ниже Сохранение состояния Activity).
+За ним всегда следует вызов метода onStart().</string>
+    <string name="on_start_message">Вызывается перед тем как activity становится видимым для пользователя.
+За ним следует вызов onResume(), если activity переходит на передний план, или onStop(), если оно скрывается.</string>
+    <string name="on_resume_message">Вызывается перед тем, как activity начинается взаимодействовать с пользователем. С этого момента activity находится на вершине стека и принимает весь пользовательский ввод.
+За ним следует вызов onPause().</string>
+    <string name="on_pause_message">Вызывается системой перед возобновлением другого activity. Этот метод обычно используется для сохранения изменённых данных, остановки анимации и других вещей, которые могут потреблять процессорное время. Другое activity не будет возобновлено, пока он не завершится, поэтому он должен делать это очень быстро.
+За ним может быть вызван метод onResume() если activity возвращается на передний план, или метод onStop(), если оно становится невидимым для пользователя.</string>
+    <string name="on_stop_message">Вызывается когда activity больше не видно пользователю. Это может происходить потому, что оно уничтожается или потому, что другое activity было возобновлено и перекрыло его.
+Затем может быть вызван либо метод onRestart(), если activity возвращается для взаимодействия с пользователем, либо метод onDestroy(), если оно завершается.</string>
+    <string name="on_destroy_message">Вызывается перед уничтожением activity. Это последний вызов, который оно получит. Может быть вызван либо потому, что activity завершается (кто-то вызвал метод finish()), либо потому, что система временно уничтожает этот экземпляр для экономии памяти. Определить это Вы можете при помощи метода isFinishing(). Он выдаёт значение true, если activity завершается системой.</string>
+    <string name="on_restart_message">Вызывается после того как activity было остановлено и теперь снова запускается.
+За ним всегда следует вызов onStart()</string>
+    <string name="on_save_instance_state_message">Android вызывает этот метод до того, как activity станет уничтожаемым, т.е. до вызова метода OnPause(). В него передаётся Bundle объект, в который можно сохранить динамическое состояние activity как пары имя-значение. Android вызывает onSaveInstanceState(), перед тем, как activity будет уничтожено системой, но не вызывает его, когда экземпляр уничтожается в результате действий пользователя (таких, как нажатие клавиши BACK). В этом случае пользователь не может рассчитывать на возвращение к activity в его предыдущем состоянии.</string>
+    <string name="on_restore_instance_state_message">Когда activity снова запускается, то Bundle объект передаётся в метод onCreate() и метод, который вызывается после onStart(), — onRestoreInstanceState(). В этом методе можно восстановить сохранённое состояние.</string>
+    <string name="count_click">Count = %d</string>
+
+    <color name="radiant_orchid">#99B163A3</color>
+    <color name="black">#F000</color>
+
+</resources>
