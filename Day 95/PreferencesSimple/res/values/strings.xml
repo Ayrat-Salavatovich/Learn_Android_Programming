@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PreferencesSimple</string>
+    <string name="action_preferences">Preferences</string>
+    <string name="preference_notifications_key">notifications</string>
+    <string name="preference_notifications_title">Notifications</string>
+    <string name="preference_notifications_summary">Enable notifications</string>
+    <string name="preference_address_key">address</string>
+    <string name="preference_address_title">Address</string>
+    <string name="preference_address_summary">Address for notifications</string>
+    <string name="info_notifications_enabled">Notifications are enabled, address = %s</string>
+    <string name="info_notifications_disabled">Notifications are disabled</string>
+
+</resources>
