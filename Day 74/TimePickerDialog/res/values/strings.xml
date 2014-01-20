@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TimePickerDialog</string>
+    <string name="action_settings">Settings</string>
+    <string name="click_me">Click Me</string>
+    <string name="time">Time is %1$d hours %2$d minutes</string>
+
+</resources>
