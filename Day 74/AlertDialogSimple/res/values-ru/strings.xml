@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="exit">Выход</string>
+    <string name="save_data">Сохранить данные?</string>
+    <string name="saved">Данные сохранены</string>
+
+</resources>
