@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PreferencesEnable</string>
+    <string name="action_preferences">Preferences</string>
+    <string name="value_one">1</string>
+    <string name="value_two">2</string>
+    <string name="value_three">3</string>
+    <string name="name_one">one</string>
+    <string name="name_two">two</string>
+    <string name="name_three">three</string>
+    <string name="preference_key_check_box_1">check_box_1</string>
+    <string name="preference_summary_off_check_box_1">Description of CheckBox 1 (OFF)</string>
+    <string name="preference_summary_on_check_box_1">Description of CheckBox 1 (ON)</string>
+    <string name="preference_title_check_box_1">CheckBox 1</string>
+    <string name="preference_key_list">list</string>
+    <string name="preference_summary_list">Description of List</string>
+    <string name="preference_title_list">List</string>
+    <string name="preference_key_check_box_2">check_box_2</string>
+    <string name="preference_summary_check_box_2">Description of CheckBox 2</string>
+    <string name="preference_title_check_box_2">CheckBox 2</string>
+    <string name="preference_key_screen">screen</string>
+    <string name="preference_summary_screen">Description of Screen</string>
+    <string name="preference_title_screen">Screen</string>
+    <string name="preference_key_category_1">category_1</string>
+    <string name="preference_summary_category_1">Description of Category 1</string>
+    <string name="preference_title_category_1">Category 1</string>
+    <string name="preference_key_check_box_3">check_box_3</string>
+    <string name="preference_summary_check_box_3">Description of CheckBox 3</string>
+    <string name="preference_title_check_box_3">CheckBox 3</string>
+    <string name="preference_key_check_box_4">check_box_4</string>
+    <string name="preference_summary_check_box_4">Description of CheckBox 4</string>
+    <string name="preference_title_check_box_4">CheckBox 4</string>
+    <string name="preference_key_category_2">category_2</string>
+    <string name="preference_summary_category_2">Description of Category 2</string>
+    <string name="preference_title_category_2">Category 2</string>
+    <string name="preference_key_check_box_5">check_box_5</string>
+    <string name="preference_summary_check_box_5">Description of CheckBox 5</string>
+    <string name="preference_title_check_box_5">CheckBox 5</string>
+    <string name="preference_key_check_box_6">check_box_6</string>
+    <string name="preference_summary_check_box_6">Description of CheckBox 6</string>
+    <string name="preference_title_check_box_6">CheckBox 6</string>
+    <string name="output_list_value">value = %s</string>
+    <string name="not_select">not select value</string>
+
+    <string-array name="entries">
+        <item>@string/name_one</item>
+        <item>@string/name_two</item>
+        <item>@string/name_three</item>
+    </string-array>
+    <string-array name="entry_values">
+        <item>@string/value_one</item>
+        <item>@string/value_two</item>
+        <item>@string/value_three</item>
+    </string-array>
+
+</resources>
