@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Files</string>
+    <string name="action_settings">Settings</string>
+    <string name="write_file">Write File</string>
+    <string name="read_file">Read file</string>
+    <string name="write_file_to_sd_card">Write file to SD Card</string>
+    <string name="read_file_from_sd_card">Read file from SD Card</string>
+    <string name="best_beaches">Best beaches in Portugal</string>
+    <string name="most_beautiful_girls">World\'s most beautiful girls live in Portugal</string>
+    <string name="error_write_file">Doesn\'t write to the file</string>
+    <string name="error_write_file_to_sd_card">Doesn\'t write to the file to SD Card</string>
+    <string name="error_file_not_found">File Not Found</string>
+    <string name="error_read_file">Reading file error</string>
+    <string name="error_read_file_from_sd_card">Reading file error from SD Card</string>
+    <string name="error_accessible_sd_card">SD Card not accessible: %s</string>
+    <string name="success_write_file">File writing success</string>
+    <string name="success_write_file_to_sd_card">File writing success to SD Card</string>
+
+</resources>
