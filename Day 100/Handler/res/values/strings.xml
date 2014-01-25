@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Handler</string>
+    <string name="action_settings">Settings</string>
+    <string name="start">Start</string>
+    <string name="test">Test</string>
+    <string name="downloaded_file_id">Downloaded File #%d</string>
+
+    <plurals name="number_downloaded_files">
+        <item quantity="zero">Files aren\'t loaded</item>
+        <item quantity="one">Downloaded 1 file</item>
+        <item quantity="other">Downloaded %d files</item>
+    </plurals>
+
+</resources>
