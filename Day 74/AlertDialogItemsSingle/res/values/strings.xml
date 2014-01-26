@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AlertDialogItemsSingle</string>
+    <string name="action_settings">Settings</string>
+    <string name="items">Items</string>
+    <string name="adapter">Adapter</string>
+    <string name="cursor">Cursor</string>
+    <string name="which">which = %d</string>
+    <string name="item_position">Item Position = %d</string>
+    <string name="falesia_beach">Falesia Beach</string>
+    <string name="cascais_old_town">Cascais Old Town</string>
+    <string name="ponta_da_piedade">Ponta da Piedade</string>
+    <string name="olhos_de_agua_beach">Olhos de Agua Beach</string>
+    <string name="praia_da_rocha">Praia Da Rocha</string>
+    <string name="praia_dona_ana">Praia Dona Ana</string>
+    <string name="troia_beach">Troia Beach</string>
+    <string name="guincho_beach">Guincho Beach</string>
+    <string name="praia_la_luz">Praia la Luz</string>
+    <string name="odeceixe_beach">Odeceixe Beach</string>
+
+    <string-array name="beaches_of_portugal">
+        <item>@string/falesia_beach</item>
+        <item>@string/cascais_old_town</item>
+        <item>@string/ponta_da_piedade</item>
+        <item>@string/olhos_de_agua_beach</item>
+        <item>@string/praia_da_rocha</item>
+        <item>@string/praia_dona_ana</item>
+        <item>@string/troia_beach</item>
+        <item>@string/guincho_beach</item>
+        <item>@string/praia_la_luz</item>
+        <item>@string/odeceixe_beach</item>
+    </string-array>
+
+</resources>
