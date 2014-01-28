@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HandlerMessageManage</string>
+    <string name="action_settings">Settings</string>
+    <string name="message">what = %d</string>
+    <string name="send_messages">Send messages</string>
+    <string name="remove_message">Remove messages with code what = %d</string>
+
+</resources>
