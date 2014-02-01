@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RunnableUIThread</string>
+    <string name="action_settings">Settings</string>
+    <string name="message_1">Portugal is not in a country but is a country itself, the Portuguese Republic</string>
+    <string name="message_2">It is an independent country on the Iberian Peninsula. Located in southwestern Europe</string>
+    <string name="message_3">It is the westernmost country of mainland Europe and is bordered by the Atlantic Ocean to the west and south and by Spain to the north and east</string>
+
+</resources>
