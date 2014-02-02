@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">ServiceKillServer</string>
+    <string name="create_service">Service onCreate</string>
+    <string name="destroy_service">Service onDestroy</string>
+    <string name="name">name</string>
+    <string name="start_command_service">Service onStartCommand</string>
+    <string name="intent_is_null">Intent is NULL</string>
+    <string name="value">%1$s = %2$s</string>
+    <string name="start_flag_retry">START_FLAG_RETRY</string>
+    <string name="start_flag_redelivery">START_FLAG_REDELIVERY</string>
+    <string name="create_runnable">%1$s#%2$d create</string>
+    <string name="start_runnable">%1$s#%2$d start</string>
+    <string name="end_with_result_runnable">%1$s#%2$d end, stopSelfResult(%3$d) = %4$b</string>
+    <string name="start_not_sticky">START_NOT_STICKY</string>
+    <string name="start_sticky">START_STICKY</string>
+    <string name="start_redeliver_intent">START_REDELIVER_INTENT</string>
+
+</resources>
