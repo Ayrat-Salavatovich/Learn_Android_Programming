@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Constants for SmartWatch. -->
+    <color name="smart_watch_text_color_grey">#ffe6e6e6</color>
+    <color name="smart_watch_text_color_orange">#fff0832d</color>
+    <color name="smart_watch_text_color_white">#ffffffff</color>
+
+    <!-- Constants for SmartWatch 2. -->
+    <color name="smart_watch_2_text_color_grey">#ffe6e6e6</color>
+    <color name="smart_watch_2_text_color_orange">#fff0832d</color>
+    <color name="smart_watch_2_text_color_white">#ffffffff</color>
+
+</resources>
