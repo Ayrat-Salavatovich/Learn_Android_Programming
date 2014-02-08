@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ServiceNotification</string>
+    <string name="action_settings">Settings</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="portugal_domain_names">Portugal Domain Names</string>
+    <string name="pt">PT</string>
+    <string name="title_notification">.pt</string>
+    <string name="text_notification">.pt is the Internet country code top-level domain (ccTLD) for Portugal and is managed by the Fundação para a Computação Científica Nacional (FCCN).</string>
+
+</resources>
