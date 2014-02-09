@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NotificationForeground</string>
+    <string name="action_settings">Settings</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="portugal">PORTUGAL</string>
+    <string name="the_best">Portugal’s one of the best places to live</string>
+    <string name="notification">Why Portugal</string>
+    <string name="title_notification_1">CNNs report Friendliest countries</string>
+    <string name="title_notification_2">World Bank/Forbes</string>
+    <string name="title_notification_3">World Travel Awards 2013</string>
+    <string name="title_notification_4">Lonely Planet</string>
+    <string name="title_notification_5">World Travel Awards 2013</string>
+    <string name="title_notification_6">World Travel Awards 2013</string>
+    <string name="text_notification_1">Portuguese people are the 7th most welcoming people in the world</string>
+    <string name="text_notification_2">One the best \'Easy doing business Countries</string>
+    <string name="text_notification_3">Portugal, Best Golf Destination</string>
+    <string name="text_notification_4">Considered to be one of the top destinations for 2014</string>
+    <string name="text_notification_5">Algarve, Best Beach Destination</string>
+    <string name="text_notification_6">Lisboa, Best City Break Destination</string>
+
+    <string-array name="title_notifications">
+        <item>@string/title_notification_1</item>
+        <item>@string/title_notification_2</item>
+        <item>@string/title_notification_3</item>
+        <item>@string/title_notification_4</item>
+        <item>@string/title_notification_5</item>
+        <item>@string/title_notification_6</item>
+    </string-array>
+    <string-array name="text_notifications">
+        <item>@string/text_notification_1</item>
+        <item>@string/text_notification_2</item>
+        <item>@string/text_notification_3</item>
+        <item>@string/text_notification_4</item>
+        <item>@string/text_notification_5</item>
+        <item>@string/text_notification_6</item>
+    </string-array>
+
+</resources>
