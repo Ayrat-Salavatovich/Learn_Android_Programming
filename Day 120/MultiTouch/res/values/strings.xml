@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MultiTouch</string>
+    <string name="action_settings">Settings</string>
+    <string name="down">down: %d</string>
+    <string name="up">up: %d</string>
+    <string name="pointer_count">pointer count: %d</string>
+    <string name="index">Index: %d</string>
+    <string name="id">ID: %d</string>
+    <string name="x">X: %f</string>
+    <string name="y">Y: %f</string>
+    <string name="action_move">%1$s, %2$s, %3$s, %4$s</string>
+
+</resources>
