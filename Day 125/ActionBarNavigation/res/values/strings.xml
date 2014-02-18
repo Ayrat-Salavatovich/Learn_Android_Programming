@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ActionBarNavigation</string>
+    <string name="action_settings">Settings</string>
+    <string name="tabs">Табы</string>
+    <string name="spinner_items">Выпадающий список</string>
+    <string name="tab_1">Tab#1</string>
+    <string name="tab_2">Tab#2</string>
+    <string name="reselected_tab_is">Reselected tab: %s</string>
+    <string name="selected_tab_is">Selected tab: %s</string>
+    <string name="unselected_tab_is">Unselected tab: %s</string>
+    <string name="selected_item">Selected item: position = %1$d, id = %2$d</string>
+
+    <string-array name="data">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+    </string-array>
+
+</resources>
