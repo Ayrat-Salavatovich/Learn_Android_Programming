@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:id="@+id/groupVisible" >
+        <item
+            android:id="@+id/action_menu_item2"
+            android:icon="@android:drawable/ic_menu_call"
+            android:showAsAction="always|withText"
+            android:title="@string/action_menu_item2"/>
+    </group>
+
+</menu>
