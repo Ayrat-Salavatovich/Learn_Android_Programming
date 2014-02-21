@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SupportLibrary</string>
+    <string name="action_settings">Settings</string>
+
+    <color name="radiant_orchid">#99B163A3</color>
+
+</resources>
