@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MultipleScreen</string>
+    <string name="action_settings">Settings</string>
+    <string name="header_1">Header#1</string>
+    <string name="header_2">Header#2</string>
+    <string name="header_3">Header#3</string>
+    <string name="header_4">Header#4</string>
+    <string name="content_1">Content#1</string>
+    <string name="content_2">Content#2</string>
+    <string name="content_3">Content#3</string>
+    <string name="content_4">Content#4</string>
+
+    <string-array name="headers">
+        <item>@string/header_1</item>
+        <item>@string/header_2</item>
+        <item>@string/header_3</item>
+        <item>@string/header_4</item>
+    </string-array>
+    <string-array name="content">
+        <item>@string/content_1</item>
+        <item>@string/content_2</item>
+        <item>@string/content_3</item>
+        <item>@string/content_4</item>
+    </string-array>
+
+</resources>
