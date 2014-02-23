@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ListActivityWithImage</string>
+    <string name="action_settings">Settings</string>
+    <string name="docks_club">DOCK\'S CLUB</string>
+    <string name="fragil">FRAGIL</string>
+    <string name="incognito">INCOGNITO</string>
+    <string name="lust">LUST</string>
+    <string name="lux">LUX</string>
+    <string name="main">MAIN</string>
+    <string name="ministerium_club">MINISTERIUM CLUB</string>
+    <string name="musicbox">MUSICBOX</string>
+    <string name="op_art_cafe">OP ART CAFE</string>
+    <string name="plateau">PLATEAU</string>
+
+    <string-array name="night_clubs_portugal">
+        <item>@string/docks_club</item>
+        <item>@string/fragil</item>
+        <item>@string/incognito</item>
+        <item>@string/lust</item>
+        <item>@string/lux</item>
+        <item>@string/main</item>
+        <item>@string/ministerium_club</item>
+        <item>@string/musicbox</item>
+        <item>@string/op_art_cafe</item>
+        <item>@string/plateau</item>
+    </string-array>
+
+</resources>
