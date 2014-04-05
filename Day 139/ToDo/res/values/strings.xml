@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ToDo</string>
+    <string name="action_settings">Настройки</string>
+    <string name="add_task">Добавить задание</string>
+    <string name="placeholder">Task %d</string>
+
+</resources>
