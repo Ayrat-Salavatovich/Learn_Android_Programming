@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Notepad</string>
+    <string name="action_open">Open</string>
+    <string name="action_save">Save</string>
+    <string name="action_settings">Настройки</string>
+    <string name="preference_open_mode">Режим открытия</string>
+    <string name="preference_size">Размер</string>
+    <string name="preference_style">Стиль</string>
+    <string name="style_regular">Обычный</string>
+    <string name="style_bold">Полужирный</string>
+    <string name="style_italic">Курсив</string>
+    <string name="style_bold_italic">Полужирный+Курсив</string>
+
+    <string-array name="text_style">
+        <item>@string/style_regular</item>
+        <item>@string/style_bold</item>
+        <item>@string/style_italic</item>
+        <item>@string/style_bold_italic</item>
+    </string-array>
+
+</resources>
