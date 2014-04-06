@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Magic8Ball</string>
+    <string name="action_settings">Settings</string>
+    <string name="shake_me_caption">Shake Me</string>
+    <string name="press_menu_shake_caption">Press Menu\n- Shake</string>
+    <string name="menu_shake_caption">Shake</string>
+    <string name="preferences_section_title">Magic 8-ball Preferences</string>
+    <string name="shake_count_id">shakeCount</string>
+    <string name="shake_count_title">Shake count</string>
+    <string name="shake_count_summary">The number of shakes to get the answer</string>
+    <string name="shake_count_dialogTitle">Set shake count value</string>
+    <string name="threshold_id">threshold</string>
+    <string name="threshold_title">Threshold</string>
+    <string name="threshold_summary">The threshold value for shaking</string>
+    <string name="threshold_dialogTitle">Choosing value between 0.1 and 4.0</string>
+    <string name="vibrate_time_id">vibrateTime</string>
+    <string name="vibrate_time_title">Vibrate time</string>
+    <string name="vibrate_time_summary">The option sets the vibration time (ms) before getting the answer</string>
+    <string name="vibrate_time_dialogTitle">Set vibration time in milliseconds</string>
+    <string name="empty">Empty time for vibrate</string>
+    <string name="LangTitle">Language</string>
+    <string name="LangDialogTitle">Choose language:</string>
+    <string name="LangSummary">Application language.\nNeed restart apllication after apply.</string>
+    <string name="vibrate_time">250</string>
+    <string name="threshold">1.0</string>
+    <string name="shake_count">4</string>
+
+</resources>

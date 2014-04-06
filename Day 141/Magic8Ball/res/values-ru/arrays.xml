@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="responses">
+        <item>Мне кажется\n- \"да\"</item>
+        <item>Предрешено</item>
+        <item>Бесспорно</item>
+        <item>Вероятнее\nвсего</item>
+        <item>Хорошие\nперспективы</item>
+        <item>Знаки\nговорят\n- \"да\"</item>
+        <item>Никаких\nсомнений</item>
+        <item>Да</item>
+        <item>Определённо\n- да</item>
+        <item>Можешь быть\nуверен \nв этом</item>
+        <item>Пока не ясно\nпопробуй\nснова</item>
+        <item>Спроси\nпозже</item>
+        <item>Лучше\nне \nрассказывать</item>
+        <item>Сейчас\nне могу\nпредсказать</item>
+        <item>Сконцентрируйся\nи спроси\nопять</item>
+        <item>Даже не\nдумай</item>
+        <item>Мой ответ\n- \"нет\"</item>
+        <item>По моим\nданным\n- \"нет\"</item>
+        <item>Перспективы\nне очень\nхорошие</item>
+        <item>Весьма\nсомнительно</item>
+    </string-array>
+
+</resources>
