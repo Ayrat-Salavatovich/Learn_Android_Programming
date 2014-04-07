@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CircleText</string>
+    <string name="best_country">Portugal voted Best Country in the World!</string>
+    <string name="circle_text">Текст вдоль окружности</string>
+    <string name="curved_text">Текст вдоль произвольной кривой</string>
+
+</resources>
