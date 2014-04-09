@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HttpURLConnection</string>
+    <string name="action_settings">Settings</string>
+    <string name="fetch_page">Загрузить страницу</string>
+    <string name="site">http://www.portugal.gov.pt</string>
+    <string name="url_image">http://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/200px-Flag_of_Portugal.svg.png</string>
+
+</resources>
