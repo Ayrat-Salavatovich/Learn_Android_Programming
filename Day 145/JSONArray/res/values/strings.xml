@@ -5,5 +5,6 @@
     <string name="action_settings">Settings</string>
     <string name="request">Запрос</string>
     <string name="query">Portugal</string>
+    <string name="query_url">http://api.duckduckgo.com/?q=%s&amp;format=json</string>
 
 </resources>
