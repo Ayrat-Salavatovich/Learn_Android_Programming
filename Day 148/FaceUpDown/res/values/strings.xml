@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FaceUpDown</string>
+    <string name="action_settings">Settings</string>
+    <string name="screen_down">Экран вниз</string>
+    <string name="screen_up">Экран вверх</string>
+
+</resources>
