@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="signs">
+        <item name="ram">@string/aries</item>
+        <item name="bull">@string/taurus</item>
+        <item name="twins">@string/gemini</item>
+        <item name="crab">@string/cancer</item>
+        <item name="lion">@string/leo</item>
+        <item name="maiden">@string/virgo</item>
+        <item name="scales">@string/libra</item>
+        <item name="scorpion">@string/scorpio</item>
+        <item name="archer">@string/sagittarius</item>
+        <item name="goat">@string/capricorn</item>
+        <item name="water_bearer">@string/aquarius</item>
+        <item name="fish">@string/pisces</item>
+    </string-array>
+    <string-array name="symbols">
+        <item name="ram">aries</item>
+        <item name="bull">taurus</item>
+        <item name="twins">gemini</item>
+        <item name="crab">cancer</item>
+        <item name="lion">leo</item>
+        <item name="maiden">virgo</item>
+        <item name="scales">libra</item>
+        <item name="scorpion">scorpio</item>
+        <item name="archer">sagittarius</item>
+        <item name="goat">capricorn</item>
+        <item name="water_bearer">aquarius</item>
+        <item name="fish">pisces</item>
+    </string-array>
+    <string-array name="periods">
+        <item name="ram">21 March – 20 April / 25 days</item>
+        <item name="bull">21 April – 21 May / 37 days</item>
+        <item name="twins">22 May – 21 June / 31 days</item>
+        <item name="crab">22 June – 22 July / 20 days</item>
+        <item name="lion">23 July – 22 August / 37 days</item>
+        <item name="maiden">23 August – 23 September / 45 days</item>
+        <item name="scales">24 September – 23 October / 23 days</item>
+        <item name="scorpion">24 October – 22 November / 30 days</item>
+        <item name="archer">23 November – 21 December / 32 days</item>
+        <item name="goat">22 December – 20 January / 28 days</item>
+        <item name="water_bearer">21 January – 19 February / 24 days</item>
+        <item name="fish">20 February – 20 March / 38 days</item>
+    </string-array>
+    <string-array name="adapters">
+        <item>@string/array_adapter</item>
+        <item>@string/base_adapter</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:defaultValue="1"
+        android:dialogTitle="Выберите адаптер"
+        android:entries="@array/adapters"
+        android:entryValues="@array/adapters"
+        android:key="@string/preference_adapter"
+        android:summary="Выбор адаптера для ListView"
+        android:title="Адаптера для ListView" />
+
+</PreferenceScreen>
