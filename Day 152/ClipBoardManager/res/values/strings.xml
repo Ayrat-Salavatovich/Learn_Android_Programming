@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ClipBoardManager</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_html_intent">HTML Intent Activity</string>
+    <string name="title_activity_clipdata_intent">Clipdata Intent Activity</string>
+
+    <!--
+       CDATA tag is required otherwise you can't have the html text
+       properly parsed in Textview
+    -->
+    <string name="text_view_html"><![CDATA[<b>Link:</b> <a href="http://www.portugal.com/">Portugal</a>]]></string>
+
+    <!-- Text string for button -->
+    <string name="button_copy">Copy</string>
+    <string name="button_paste">Paste</string>
+    <string name="button_send_html_intent">Send HTML Intent</string>
+    <string name="button_send_clipdata_intent">Send ClipData Intent</string>
+
+    <!-- Text string for RadioButton -->
+    <string name="radio_button_html">Paste Html</string>
+    <string name="radio_button_text">Paste Text</string>
+
+    <!-- Text string for Text View -->
+    <string name="text_view_copied_text"><b><i>Copied text</i></b></string>
+    <string name="text_view_copied_coerce_text"><b><i>Copied coerce Text</i></b></string>
+    <string name="text_view_intent_text"><b><i>Intent Text</i></b></string>
+    <string name="text_view_intent_html"><b><i>Intent Html</i></b></string>
+    <string name="text_view_intent_clipdata_text"><b><i>Intent Clipdata Text</i></b></string>
+    <string name="text_view_intent_clipdata_html"><b><i>Intent Clipdata Html</i></b></string>
+
+</resources>
