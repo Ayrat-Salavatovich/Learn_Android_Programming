@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flashlight</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Text string for Text View -->
+    <string name="text_view_flashlight">Фонарик</string>
+
+    <!-- Text string for Toggle Button -->
+    <string name="toggle_button_text_off">Вкл</string>
+    <string name="toggle_button_text_on">Выкл</string>
+
+    <!-- Text string for Dialog -->
+    <string name="dialog_title">Sorry!</string>
+
+    <!-- Alert -->
+    <string name="alert_support_torch">Your device doesn\'t support flash light</string>
+    <string name="alert_camera_parameters">No camera parameters</string>
+
+</resources>
