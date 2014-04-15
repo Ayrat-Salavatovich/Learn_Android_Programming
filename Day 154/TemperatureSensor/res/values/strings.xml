@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TemperatureSensor</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Text string for Text View -->
+    <string name="current_temperature">Current temperature = %fC</string>
+    <string name="temperature_sensor_unavailable">Thermometer Unavailable :(</string>
+
+</resources>
