@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/buttonGetCacheDir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_get_cache_dir" />
+
+    <TextView
+        android:id="@+id/textViewCacheDir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonGetCacheDir"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buttonGetExternalCacheDir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewCacheDir"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_get_external_cache_dir" />
+
+    <TextView
+        android:id="@+id/textViewExternalCacheDir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonGetExternalCacheDir"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

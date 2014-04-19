@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">File</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_show_get_dir_activity">Отобразить GetDirActivity</string>
+    <string name="button_get_file_dir">Абсолютный путь к файлу приложения</string>
+    <string name="button_get_dir">Путь к директории приложения</string>
+    <string name="text_view_app_name">Имя приложения:</string>
+    <string name="button_show_open_file_output_activity">Отобразить OpenFileOutputActivity</string>
+    <string name="text_view_output_file_name">Имя файла:</string>
+    <string name="text_view_output_text">Сообщение:</string>
+    <string name="button_save_output_file">Сохранить файл</string>
+    <string name="notifications_save_output_file">Файл %s сохранен</string>
+    <string name="button_show_get_files_list_activity">Отобразить FilesListActivity</string>
+    <string name="button_get_files_list">Показать список файлов</string>
+    <string name="button_show_open_file_input_activity">Отобразить OpenFileInputActivity</string>
+    <string name="button_save_input_file">Сохранить изменения</string>
+    <string name="button_show_delete_file_activity">Отобразить DeleteFileActivity</string>
+    <string name="notifications_delete_output_file">Файл %s удален</string>
+    <string name="button_show_get_cache_dir_activity">Отобразить GetCacheDirActivity</string>
+    <string name="button_get_cache_dir">Путь кэшу для временных файлов</string>
+    <string name="button_get_external_cache_dir">Путь внешнего кэша для временных файлов</string>
+
+</resources>
