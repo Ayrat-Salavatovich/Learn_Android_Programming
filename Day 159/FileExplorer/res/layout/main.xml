@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textViewPath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayoutFilterImages"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:id="@+id/listViewListFiles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewPath"
+        android:layout_centerHorizontal="true" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutSortFiles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/buttonAlphabetically"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onAlphabeticallyClick"
+            android:text="@string/button_alphabetically" />
+
+        <Button
+            android:id="@+id/buttonLastDateModified"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onLastDateModifiedClick"
+            android:text="@string/button_last_date_modified" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutFilterImages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayoutSortFiles"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/buttonNoFilter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onNoFilterClick"
+            android:text="@string/button_no_filter" />
+
+        <Button
+            android:id="@+id/buttonImagesFilter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onImagesFilterClick"
+            android:text="@string/button_images_filter" />
+    </LinearLayout>
+
+</RelativeLayout>
