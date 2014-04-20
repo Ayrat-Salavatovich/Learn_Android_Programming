@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DeviceId</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_view_imei">IMEI No: %s</string>
+    <string name="text_view_meid_or_esn">MEID/ESN No: %s</string>
+    <string name="text_view_imsi">IMSI No: %s</string>
+    <string name="text_view_mac">MAC: %s</string>
+    <string name="text_view_serial">Serial: %s</string>
+    <string name="text_view_android_id">AndroidID: %s</string>
+    <string name="text_view_phone_number">Phone Number: %s</string>
+    <string name="text_view_software_version">Software Version: %s</string>
+    <string name="text_view_operator_name">Operator Name: %s</string>
+    <string name="text_view_sim_country_code">SIM Country Code: %s</string>
+    <string name="text_view_sim_operator">SIM Operator: %s</string>
+    <string name="text_view_sim_serial">SIM Serial No: %s</string>
+    <string name="text_view_phone_type">Phone Type: %s</string>
+    <string name="text_view_network_type">Network Type: %s</string>
+
+</resources>
