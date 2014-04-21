@@ -13,6 +13,11 @@ public class DictionaryDBOpenHelper extends SQLiteOpenHelper {
 		public static final String DATABASE_TABLE = "Languages";
 		public static final String KEY_ID = "_pk";
 		public static final String KEY_LANGUAGE_COLUMN = "LANGUAGE";
+
+		public static final String CREATE_TABLE = "CREATE TABLE "
+				+ DATABASE_TABLE + " { " + KEY_ID
+				+ "INTEGER PRIMARY KEY AUTOINCREMENT, " + KEY_LANGUAGE_COLUMN
+				+ " TEXT NOT NULL" + " };";
 	}
 
 	public class EnglishWordsBaseForm {
@@ -55,13 +60,13 @@ public class DictionaryDBOpenHelper extends SQLiteOpenHelper {
 	public class Sounds {
 		public static final String DATABASE_TABLE = "Sounds";
 		public static final String KEY_ID = "_pk";
-		public static final String KEY_TABLE_SOUND_PATH_COLUMN = "SOUND_PATH";
+		public static final String KEY_TABLE_SOUND_URI_COLUMN = "SOUND_URI";
 	}
 
 	public class Pictures {
 		public static final String DATABASE_TABLE = "Pictures";
 		public static final String KEY_ID = "_pk";
-		public static final String KEY_TABLE_PICTURE_PATH_COLUMN = "PICTURE_PATH";
+		public static final String KEY_TABLE_PICTURE_URI_COLUMN = "PICTURE_URI";
 	}
 
 	public class Transcripts {
