@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ZipFile</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_create_file">Create a file</string>
+    <string name="button_compress_file_to_zip">Compress the file to a Zip</string>
+    <string name="button_decompress_file_from_zip">Decompress the file from the Zip</string>
+    <string name="button_clean">Clean</string>
+
+</resources>
