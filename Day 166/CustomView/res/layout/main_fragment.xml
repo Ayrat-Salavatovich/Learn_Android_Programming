@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ayrat.salavatovich.gmail.com.day_166.customview.MainActivity$PlaceholderFragment" >
+
+    <ayrat.salavatovich.gmail.com.day_166.customview.MyRectView
+        android:id="@+id/myRectView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" />
+
+    <ayrat.salavatovich.gmail.com.day_166.customview.MyRectView
+        android:id="@+id/myRectView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/myRectView1"
+        android:layout_margin="5dp" />
+
+    <ayrat.salavatovich.gmail.com.day_166.customview.MyRectView
+        android:id="@+id/myRectView3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/myRectView2"
+        android:layout_margin="5dp" />
+
+    <ayrat.salavatovich.gmail.com.day_166.customview.MyCircleView
+        android:id="@+id/myCircleView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myRectView3"
+        android:layout_margin="5dp" />
+
+    <ayrat.salavatovich.gmail.com.day_166.customview.MyCircleView
+        android:id="@+id/myCircleView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/myCircleView1"
+        android:layout_margin="5dp" />
+
+    <ayrat.salavatovich.gmail.com.day_166.customview.MyCircleView
+        android:id="@+id/myCircleView3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/myCircleView2"
+        android:layout_margin="5dp" />
+
+</RelativeLayout>
