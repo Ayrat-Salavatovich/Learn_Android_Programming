@@ -1,0 +1,39 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="SolidEditText">
+        <item name="android:textColor">#F000</item>
+        <item name="android:background">@drawable/solid_edit_text_background</item>
+        <item name="android:minHeight">@dimen/edit_text_min_height</item>
+    </style>
+
+    <style name="Button" parent="@android:style/Widget.ImageButton">
+        <item name="android:minHeight">@dimen/edit_text_min_height</item>
+    </style>
+
+    <style name="LeftButton" parent="Button">
+        <item name="android:textColor">#F000</item>
+        <item name="android:background">@drawable/left_button_background</item>
+    </style>
+
+    <style name="RightButton" parent="Button">
+        <item name="android:textColor">#F000</item>
+        <item name="android:background">@drawable/right_button_background</item>
+    </style>
+
+</resources>

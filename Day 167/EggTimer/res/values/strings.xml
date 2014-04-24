@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EggTimer</string>
+    <string name="action_settings">Settings</string>
+    <string name="empty_string"></string>
+    <string name="text_view_default_number">000</string>
+    <string name="text_view_time">Time:</string>
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+    <string name="text_view_time_left">%d sec.</string>
+    <string name="text_view_ready">Ready</string>
+
+</resources>
