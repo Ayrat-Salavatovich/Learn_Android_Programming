@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flip</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_"></string>
+    <string name="button_vertical_flip">По вертикали</string>
+    <string name="button_horizontal_flip">По горизонтали</string>
+
+</resources>
