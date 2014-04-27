@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ayrat.salavatovich.gmail.com.day_169.image"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="ayrat.salavatovich.gmail.com.day_169.image.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ActivityInvertImage" >
+        </activity>
+        <activity android:name="ActivityGrayscaleImage" >
+        </activity>
+        <activity android:name="ActivityRotateImage" >
+        </activity>
+        <activity android:name="ActivityChannelMixerImage" >
+        </activity>
+        <activity android:name="ActivityFilterImage" >
+        </activity>
+        <activity android:name="ActivityGammaImage" >
+        </activity>
+        <activity android:name="ActivitySepiaImage" >
+        </activity>
+        <activity android:name="ActivityWaterMarkImage" >
+        </activity>
+        <activity android:name="ActivityColorDepthImage" >
+        </activity>
+        <activity android:name="ActivityContrastImage" >
+        </activity>
+        <activity android:name="ActivityBrightnessImage" >
+        </activity>
+        <activity android:name="ActivitySnowEffectImage" >
+        </activity>
+        <activity android:name="ActivityBlackFilterImage" >
+        </activity>
+        <activity android:name="ActivityNoiseEffectImage" >
+        </activity>
+        <activity android:name="ActivitySaturationImage" >
+        </activity>
+        <activity android:name="ActivityHueImage" >
+        </activity>
+        <activity android:name="ActivityShadingFilterImage" >
+        </activity>
+        <activity android:name="ActivityHighlightImage" >
+        </activity>
+        <activity android:name="ActivityEmbossEffectImage" >
+        </activity>
+        <activity android:name="ActivityGaussianBlurEffectImage" >
+        </activity>
+        <activity android:name="ActivityEngravingEffectImage" >
+        </activity>
+        <activity android:name="ActivitySharpenEffectImage" >
+        </activity>
+        <activity android:name="ActivityMeanRemovalEffectImage" >
+        </activity>
+        <activity android:name="ActivitySmoothEffectImage" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityColorDepthImage" >
+
+    <RadioGroup
+        android:id="@+id/radioGroupColorDepth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioButton0BitOffset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/radio_button_offset_0" />
+
+        <RadioButton
+            android:id="@+id/radioButton32BitOffset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_button_offset_32" />
+
+        <RadioButton
+            android:id="@+id/radioButton64BitOffset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_button_offset_64" />
+
+        <RadioButton
+            android:id="@+id/radioButton128BitOffset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"            android:text="@string/radio_button_offset_128" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/image_view_content_description"
+        android:src="@drawable/beautiful_portuguese_girl" />
+
+</LinearLayout>
