@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyApplication</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_view_country">%s</string>
+    <string name="text_view_capital">Capital: %s</string>
+    <string name="text_view_official_languages">Official languages: %s</string>
+    <string name="text_view_foundation">Foundation: %d</string>
+
+</resources>
