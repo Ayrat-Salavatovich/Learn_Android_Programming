@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DrawingPath</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_simple_shapes">Простые фигуры</string>
+    <string name="button_curves">Кривые</string>
+    <string name="button_text_of_figure">Текст по фигуре</string>
+
+</resources>
