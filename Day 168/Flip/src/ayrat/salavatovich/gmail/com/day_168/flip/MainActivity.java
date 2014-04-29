@@ -1,7 +1,6 @@
 package ayrat.salavatovich.gmail.com.day_168.flip;
 
 import android.os.Bundle;
-import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.Matrix;
 import android.graphics.drawable.BitmapDrawable;

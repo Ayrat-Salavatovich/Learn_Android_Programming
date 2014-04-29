@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MatrixTransform</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_translate">Перемещение</string>
+    <string name="button_scale">Изменение размера</string>
+    <string name="button_rotate">Поворот</string>
+    <string name="button_post_pre_translate">Порядок операций</string>
+    <string name="button_skew">Наклон</string>
+    <string name="button_map">Map методы</string>
+
+</resources>
