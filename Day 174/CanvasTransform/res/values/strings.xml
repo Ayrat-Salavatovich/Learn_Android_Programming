@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CanvasTransform</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_matrix_translate">Перемещение с помощью матрицы</string>
+    <string name="button_canvas_translate">Перемещение с помощью канвы</string>
+    <string name="button_save_canvas">Запоминать состояние матрицы канвы</string>
+    <string name="button_restore_canvas">Сбросить состояние матрицы канвы</string>
+    <string name="button_save_private_stack_canvas">Запоминать состояния матрицы канвы в стеке</string>
+    <string name="button_restore_to_count_canvas">Вернеть состояние матрицы канвы к указанному состоянию</string>
+
+</resources>

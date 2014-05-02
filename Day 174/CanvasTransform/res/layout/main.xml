@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/buttonOpenCanvasTranslateActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickOpenActivity"
+        android:text="@string/button_canvas_translate" />
+
+    <Button
+        android:id="@+id/buttonOpenPreTranslateActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonOpenCanvasTranslateActivity"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickOpenActivity"
+        android:text="@string/button_matrix_translate" />
+
+    <Button
+        android:id="@+id/buttonOpenRestoreCanvasActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonOpenPreTranslateActivity"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickOpenActivity"
+        android:text="@string/button_restore_canvas" />
+
+    <Button
+        android:id="@+id/buttonOpenRestoreToCountCanvasActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonOpenRestoreCanvasActivity"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickOpenActivity"
+        android:text="@string/button_restore_to_count_canvas" />
+
+    <Button
+        android:id="@+id/buttonOpenSaveCanvasActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonOpenRestoreToCountCanvasActivity"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickOpenActivity"
+        android:text="@string/button_save_canvas" />
+
+    <Button
+        android:id="@+id/buttonOpenSavePrivateStackCanvasActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonOpenSaveCanvasActivity"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickOpenActivity"
+        android:text="@string/button_save_private_stack_canvas" />
+
+</RelativeLayout>
