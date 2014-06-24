@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ringtone</string>
+    <string name="button_text">Ringtone picker</string>
+    <string name="button_text_play_stop">Play/Stop</string>
+
+</resources>
