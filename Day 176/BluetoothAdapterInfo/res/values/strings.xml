@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BluetoothAdapterInfo</string>
+    <string name="button_title_get_bluetooth_state">Получить информацию</string>
+
+</resources>
