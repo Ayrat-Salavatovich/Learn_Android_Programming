@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RingerMode</string>
+    <string name="radio_button_text_normal">Normal</string>
+    <string name="radio_button_text_silent">Silent</string>
+    <string name="radio_button_text_vibrate">Vibrate</string>
+
+</resources>
