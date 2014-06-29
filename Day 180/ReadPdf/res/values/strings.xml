@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ReadPdf</string>
+    <string name="text_view_text_pdf_supported">PDF-файл поддерживается</string>
+    <string name="text_view_text_pdf_unsupported">PDF-файл не поддерживается</string>
+
+</resources>
