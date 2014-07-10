@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Contact</string>
+    <string name="button_add_contact">Добавить контакт</string>
+    <string name="button_save_contact">Сохранить контакт</string>
+    <string name="menuitem_add_contact">Добавить контакт</string>
+    <string name="menuitem_edit_contact">Изменить контакт</string>
+    <string name="menuitem_delete_contact">Удалить контакт</string>
+    <string name="address">Адрес</string>
+    <string name="hint_name">Имя</string>
+    <string name="hint_email">Эл.почта</string>
+    <string name="hint_phone">Телефон</string>
+    <string name="hint_street">Улица</string>
+    <string name="hint_city">Город/Индекс</string>
+    <string name="label_name">Имя:</string>
+    <string name="label_email">E-Mail:</string>
+    <string name="label_phone">Телефон:</string>
+    <string name="label_street">Улица:</string>
+    <string name="label_city">Город/Индекс:</string>
+    <string name="confirmTitle">Вы уверены?</string>
+    <string name="confirmMessage">Контакт будет удалён</string>
+    <string name="errorButton">OK</string>
+    <string name="errorTitle">Укажите имя контакта</string>
+    <string name="errorMessage">Вы должны указать имя контакта</string>
+    <string name="button_cancel">Отмена</string>
+    <string name="button_delete">Удалить</string>
+
+</resources>
